@@ -11,8 +11,7 @@
 
 3. Login to heroku `heroku login`
 
-4. Create heroku remote
-  * `heroku git:remote -a APPNAME``
+4. Create heroku remote `heroku git:remote -a APPNAME``
 
 5. Verify heroku remote `git remote -v`
 
@@ -38,7 +37,6 @@
 
 6. heroku open
 
-For angular without location proivder Add /#/ to the end of the heroku url
+  * For angular without location proivder Add /#/ to the end of the heroku url
 
-In the event of err, check heroku log
-`heroku logs -t`
+  * In the event of err, check heroku log `heroku logs -t`
