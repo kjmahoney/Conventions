@@ -11,7 +11,7 @@
 
 3. Login to heroku `heroku login`
 
-4. Create heroku remote `heroku git:remote -a APPNAME``
+4. Create heroku remote `heroku git:remote -a APPNAME`
 
 5. Verify heroku remote `git remote -v`
 
@@ -29,14 +29,12 @@
 
 `mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/YOURDATABASENAME")`
 
-4. push changes to heroku
-`git push heroku master`
+4. Push changes to heroku `git push heroku master`
 
-5. Seed your database
-`heroku run node db/seed.js`
+5. Seed your database `heroku run node db/seed.js`
 
-6. heroku open
+6. Open your application `heroku open`
 
-  * For angular without location proivder Add /#/ to the end of the heroku url
+  * For angular without location provider Add /#/ to the end of the heroku url
 
   * In the event of err, check heroku log `heroku logs -t`
