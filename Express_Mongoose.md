@@ -7,8 +7,10 @@
 `Npm init -y`
 `npm install --save mongoose (npm i -S mongoose)``
 `mkDir db`
-####Connection.js
-`Require mongoose`
+####In Connection.js file
+Require mongoose
+`var mongoose = require("mongoose")`
+
 `Mongoose.connect`
 `mongoose.connect("mongodb://localhost/[name]")`
 
