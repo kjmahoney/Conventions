@@ -3,29 +3,29 @@
 
 1. Create an `all` remote to your git
 
-```
-git remote add all GITHUBSSH.GIT
-```
+...```
+...git remote add all GITHUBSSH.GIT
+...```
 
 2. Add your repository to the `all` remote
 
-```
-git remote set-url --add --push all YOURORIGINALGITHUBREPO
-```
+...```
+...git remote set-url --add --push all YOURORIGINALGITHUBREPO
+...```
 
 3. Add another repository to the `all` remote
 
-```
-git remote set-url --add --push all ANYADDITIONALGITHUBREPOS
-```
+...```
+...git remote set-url --add --push all ANYADDITIONALGITHUBREPOS
+...```
 
 4. To push to both type `git push all`
 
-```
-git remote add all GITHUBSSH.GIT
-```
-
-***Optional
+...```
+...git remote add all GITHUBSSH.GIT
+...```
+***
+##Optional
 Renaming your `origin`
 
 `git remote rename origin NEWNAME`
